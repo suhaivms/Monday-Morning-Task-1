@@ -1,9 +1,95 @@
-p {
-	text-align: justify;
-}
-h1{
+
+
+.nam{
 	background: black;
 	color:white;
 	margin-top: 0px;
+	padding: 10px;
+	margin-top: 10px;
+
 }
+
+.ser{
+	margin-top: 15px;
+}
+
+.leftnav{
+	margin-top: 100px;
+	border: solid;
+	margin-right: 40px; 
+	font-size: 12px;
+	border-width: 0.5px;
+
+}
+
+
+
+.left p, h6{
+	padding-left: 7px;
+}
+
+
+.rightnav {
+	margin-top: 100px;
+	border: solid;
+	margin-left: 60px; 
+	font-size: 12px;
+	border-width: 0.5px;
+}
+
+.head img{
+      width: 580px;
+       height: 250px;
+}
+
+.other img{
+	width:193px;
+	height: 150px;
+	
+
+
+}
+
+.mid{
+	margin-left: 30px;
+}
+
+
+article{
+	text-align: justify;
+}
+
+.art img{
+	width:750px;
+
+}
+
+
+footer{
+	background-color: black;
+	color: white;
+	margin-top: 10px;
+}
+
+
+
+button{
+	margin-left: 60px;
+}
+
+footer a{
+
+	color: white;
+}
+
+#foot {
+	color:white;
+	
+	width:200px;
+	list-style-type: none;
+	position:relative;
+	left:100px;
+
+}
+
 
