@@ -6,6 +6,7 @@
 	margin-top: 0px;
 	padding: 10px;
 	margin-top: 10px;
+	margin-bottom: 10px;
 
 }
 
@@ -15,14 +16,14 @@
 
 .leftnav{
 	margin-top: 100px;
-	border: solid;
-	margin-right: 40px; 
+	
+	 
 	font-size: 12px;
-	border-width: 0.5px;
-
 }
 
-
+.leftnav img{
+	width: 180px;
+}
 
 .left p, h6{
 	padding-left: 7px;
@@ -31,16 +32,12 @@
 
 .rightnav {
 	margin-top: 100px;
-	border: solid;
-	margin-left: 60px; 
+	margin-left: 20px;
 	font-size: 12px;
-	border-width: 0.5px;
+	
 }
 
-.head img{
-      width: 580px;
-       height: 250px;
-}
+
 
 .other img{
 	width:193px;
@@ -71,7 +68,19 @@ footer{
 	margin-top: 10px;
 }
 
+.admin{
+	border: solid;
+	border-width: 0.5px;
+	margin-top: 180px;
+	margin-right: 450px;
+	margin-left: 450px;
+	padding: 20px;
+}
 
+
+ #ad{
+	padding-left: 60px;
+}
 
 button{
 	margin-left: 60px;
@@ -82,14 +91,18 @@ footer a{
 	color: white;
 }
 
-#foot {
-	color:white;
-	
-	width:200px;
-	list-style-type: none;
-	position:relative;
-	left:100px;
 
+@media screen and (max-width: 700px){
+	.container{
+		width:100%;
+	}
+	
 }
 
+@media screen and (max-width: 700px){
+	
+}
 
+.foot{
+	margin-top: 100px;
+}
