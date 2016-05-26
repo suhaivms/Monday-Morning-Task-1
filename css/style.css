@@ -1,10 +1,17 @@
 
 body{
 	background: url(../img/bg-pattern.png);
+	
+}
+
+section{
+	max-width: 1000px;
+	padding-left: 7%;
 }
 
 .container{
 	margin-bottom: 10px;
+
 }
 
 .nam{
@@ -15,6 +22,17 @@ body{
 	padding-left: 20px;
 	border-radius: 30px;
 	margin-top: -20px;
+}
+
+
+.name{
+	background:#666666;
+	color:white;
+	margin-bottom: 20px;
+	padding: 10px;
+	padding-left: 20px;
+	border-radius: 30px;
+	margin-top: 4px;
 }
 
 
@@ -80,7 +98,7 @@ footer{
 	
 	margin-top: 10px;
 	
-	font-size: 18px;
+	font-size: 12px;
 }
 
 .admin{
@@ -144,6 +162,7 @@ div.col-md-8 textarea.dde {
 }
 
 
+
 @media screen and (max-width: 700px){
 	.container{
 		width:100%;
@@ -161,6 +180,9 @@ div.col-md-8 textarea.dde {
 		width: 60%;
 	}
 }
+
+
+
 
 
 
