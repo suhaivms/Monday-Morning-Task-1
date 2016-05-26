@@ -1,14 +1,20 @@
 
+body{
+	background: url(../img/bg-pattern.png);
+}
+
 .container{
 	margin-bottom: 10px;
 }
 
 .nam{
-	background: black;
+	background:#666666;
 	color:white;
 	margin-bottom: 20px;
 	padding: 10px;
 	padding-left: 20px;
+	border-radius: 30px;
+	margin-top: -20px;
 }
 
 
@@ -92,10 +98,14 @@ footer{
 	padding-left: 60px;
 }
 
-button{
-	margin-left: 60px;
+.button-admin{
+	margin-left: 35%;
 }
 
+
+.button-edit{
+	margin-left: 92%;
+}
 
 
 
@@ -109,7 +119,29 @@ footer a{
 	margin-top: 150px;
 }
 
+div.col-md-8 textarea.dde {
+		height:400px;
+		min-height: 300px;
+		max-height: 400px;
+		margin-bottom:2%; 
+	}
 
+
+
+
+.left-edit{
+	padding-left: 25%;
+	margin-bottom: 2%;
+	
+}
+
+
+
+.admin_pannel_head, .article-edit{
+	padding-left: 35%;
+	padding-top: 1%;
+	margin-bottom: 5%;
+}
 
 
 @media screen and (max-width: 700px){
@@ -119,11 +151,6 @@ footer a{
 	
 }
 
-
-.admin_pannel_head{
-	padding-left: 35%;
-	padding-top: 1%;
-}
 
 
 @media screen and (max-width: 700px){
