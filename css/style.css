@@ -88,6 +88,13 @@ article{
 	text-align: justify;
 }
 
+
+.article-edit{
+	padding-left: 35%;
+	padding-top: 1%;
+	margin-bottom: 5%;
+}
+
 .art img{
 	width:750px;
 
@@ -101,24 +108,7 @@ footer{
 	font-size: 12px;
 }
 
-.admin{
-	border: solid;
-	border-width: 0.5px;
-	margin-top: 10%;
-	margin-right: 37%;
-	margin-left: 37%;
-	padding: 20px;
 
-}
-
-
- #ad{
-	padding-left: 60px;
-}
-
-.button-admin{
-	margin-left: 35%;
-}
 
 
 .button-edit{
@@ -155,11 +145,6 @@ div.col-md-8 textarea.dde {
 
 
 
-.admin_pannel_head, .article-edit{
-	padding-left: 35%;
-	padding-top: 1%;
-	margin-bottom: 5%;
-}
 
 
 
@@ -178,6 +163,16 @@ div.col-md-8 textarea.dde {
 	}
 	.admin{
 		width: 60%;
+	}
+	.button-edit{
+		margin-left: 60%;
+	}
+	.ser{
+		margin-bottom: 5%;
+	}
+	.main-article img{
+		max-width: 100%;
+
 	}
 }
 
